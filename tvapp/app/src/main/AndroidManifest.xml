@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tvapp">
+
+    <application
+        android:allowBackup="true"
+        android:label="TVApp"
+        android:supportsRtl="true">
+        <activity android:name="com.example.tvapp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.tvapp.SubCategoryActivity" />
+        <activity android:name="com.example.tvapp.VideoListActivity" />
+    </application>
+
+</manifest>
